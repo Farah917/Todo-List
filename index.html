@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="shortcut icon" href="image/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css.map">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+
+    <div class="all w-100 my-5">
+        <h1 class="text-center mb-4 text-white">Todo List with API</h1>
+        <div class="container w-75 p-4 rounded-4 shadow-lg text-center">
+            
+            <div class="add row g-3 d-flex justify-content-evenly w-100">
+                <input type="text" id="input" class="form form-control w-75 rounded-4 col-12 col-md-8" placeholder="New Task">
+                <button id="insert" class="button btn text-white pe-4 ps-4 rounded-4 col-6 col-md-2"> Add Task</button>
+            </div>
+            <div id="none" class="none text-danger mt-3"></div>
+            <h2 class="alltasks-title mt-4 mb-3 text-white"></h2>
+            <div class="nb-spinner" id="loading"></div>
+            <div id="values" class="tasks btn p-2 w-75 m-auto">
+
+            </div>
+            
+        </div>
+    </div>
+
+
+    
+    <script src="JS/main.js"></script>
+</body>
+</html> 
