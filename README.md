@@ -1,2 +1,2 @@
-# Todo-List
-A to-do list app with an integrated API that lets users add, remove, and check their tasks
+# Todo-List (Add-Check-Delete)
+https://farah917.github.io/Todo-List/
